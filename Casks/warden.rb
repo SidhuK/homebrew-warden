@@ -1,6 +1,6 @@
 cask "warden" do
-  version "0.9.3"
-  sha256 "e6eefe3e40d026ad851a224f1b42aeab3f85b58319ab87297ad6c59e1362b3ce"
+  version "0.9.4"
+  sha256 "f2df38032c6c91f453f3f2a69731db832ac55913a3256084f2d29549bb70807e"
 
   url "https://github.com/SidhuK/WardenApp/releases/download/v#{version}/Warden.zip",
       verified: "github.com/SidhuK/WardenApp/"
