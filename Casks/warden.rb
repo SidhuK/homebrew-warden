@@ -1,8 +1,8 @@
 cask "warden" do
   version "0.9.9"
-  sha256 "14587b1038b2339446a29834cf30f6c7763a0785d8818a9cbf01a1ac18aec018"
+  sha256 "2a01f47ecc29ec3958536ae01fcc63ca99afb8481f1166cf43bf681e833a7108"
 
-  url "https://github.com/SidhuK/WardenApp/releases/download/v#{version}/Warden-v#{version}.dmg",
+  url "https://github.com/SidhuK/WardenApp/releases/download/v#{version}/Warden.zip",
       verified: "github.com/SidhuK/WardenApp/"
   name "Warden"
   desc "Native macOS AI chat client supporting 10+ providers"
