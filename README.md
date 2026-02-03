@@ -30,6 +30,24 @@ Since Warden is not notarized, you may need to bypass Gatekeeper on first launch
 brew upgrade --cask warden
 ```
 
+## Changelog
+### Warden 1.0 — Changelog (from 0.9.9)
+
+### New
+- **OpenRouter sub-providers:** OpenRouter models are now sub-categorized by their originating labs (e.g., Anthropic, OpenAI, xAI, ZAI, and more).
+- **Chat grouping controls:** Option to **group/ungroup chats by date** in the sidebar.
+- **Richer model details:** **Metadata and model properties** are now shown for most models (credit: LiteLLM on GitHub).
+
+### Improved
+- **Model Selector:** Rebuilt dropdown with **tabbed navigation**, clearer organization, and **faster performance**.
+- **Quick Chat:** Major improvements to reliability and overall experience; Quick Chats are now **much more robust**.
+- **Sidebar:** Cleaner layout with **more chats visible** at once.
+- **UI polish:** Refinements across the **sidebar and chat area**.
+- **Projects UI:** Simplified interface with more **native macOS touches**.
+
+### Maintenance
+- **Code quality improvements:** Internal refactors and cleanup for stability and maintainability.
+
 ## Uninstall
 
 ```bash
